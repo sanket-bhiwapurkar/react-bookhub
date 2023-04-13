@@ -1,0 +1,51 @@
+.book-item {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 900px) {
+  .book-item {
+    width: 50%;
+  }
+}
+.book-thumbnail {
+  width: 133px;
+  border-radius: 8px;
+}
+.book-item-text {
+  padding: 0px 20px;
+}
+.book-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+  margin-bottom: 6px;
+}
+.book-author {
+  margin: 0px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #475569;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+.book-status {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+  margin: 0px;
+}

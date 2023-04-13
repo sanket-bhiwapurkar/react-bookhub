@@ -1,0 +1,42 @@
+.tabs-container {
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .tabs-container {
+    padding: 20px;
+    background-color: #ffffff;
+    min-width: 200px;
+    flex-grow: 1;
+    max-width: 256px;
+    height: 95vh;
+    margin-right: 20px;
+  }
+}
+.tabs-heading {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+}
+@media screen and (min-width: 768px) {
+  .tabs-heading {
+    font-size: 20px;
+  }
+}
+.tab-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .tab-list {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 24px;
+  }
+}

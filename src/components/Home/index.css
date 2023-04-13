@@ -1,0 +1,165 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #e5e5e5;
+}
+.home-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+@media screen and (min-width: 768px) {
+  .home-body {
+    padding: 50px;
+  }
+}
+.text-container {
+  max-width: 1200px;
+  align-self: center;
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+  .text-container {
+    padding: 0px;
+    padding-bottom: 30px;
+  }
+}
+.main-heading {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 64px;
+    margin: 0px 6px;
+  }
+}
+.text-para {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .text-para {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0px 6px;
+  }
+}
+.find-books-btn {
+  font-family: 'Inter', sans-serif;
+  padding: 10px 20px;
+  width: 104px;
+  height: 36px;
+  background-color: #0284c7;
+  border-radius: 4px;
+  color: #f8fafc;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .find-books-btn {
+    display: none;
+  }
+}
+.slider-container {
+  background-color: #ffffff;
+  padding: 27px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .slider-container {
+    margin: 0px 50px;
+    max-width: 1200px;
+    align-self: center;
+    border-radius: 16px;
+  }
+}
+.slider-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1e293b;
+  margin-right: auto;
+}
+.find-books-btn-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .find-books-btn-desktop {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 20px;
+    width: 104px;
+    height: 36px;
+    background-color: #0284c7;
+    border-radius: 4px;
+    color: #f8fafc;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 768px) {
+  .slider-heading {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.slider {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.slide {
+  display: flex;
+  margin: 6px;
+  padding: 6px;
+  text-align: center;
+}
+.slide-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #334155;
+  margin: 4px 0px;
+}
+.slide-author {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #475569;
+  margin: 4px 0px;
+}
+.slide-img {
+  width: 100%;
+  max-width: 150px;
+  margin: 0px auto;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #989898 !important;
+}

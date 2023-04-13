@@ -1,0 +1,36 @@
+.tab-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 16px;
+  border: 1px solid #0284c7;
+  color: #0284c7;
+  border-radius: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .tab-btn {
+    border: none;
+    color: #475569;
+    margin: 0px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    padding: 0px;
+  }
+}
+.active-tab {
+  background: #0284c7;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .active-tab {
+    background-color: transparent;
+    color: #0284c7;
+  }
+}
